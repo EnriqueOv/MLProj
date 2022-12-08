@@ -1,0 +1,26 @@
+Tester:     weka.experiment.PairedCorrectedTTester -G 4,5,6 -D 1 -R 2 -S 0.05 -result-matrix "weka.experiment.ResultMatrixPlainText -mean-prec 2 -stddev-prec 2 -col-name-width 0 -row-name-width 25 -mean-width 2 -stddev-width 2 -sig-width 1 -count-width 5 -print-col-names -print-row-names -enum-col-names"
+Analysing:  Kappa_statistic
+Datasets:   6
+Resultsets: 3
+Confidence: 0.05 (two tailed)
+Sorted by:  -
+Date:       12/6/22, 11:28 PM
+
+
+Dataset                   (1) meta.Ad | (2) meta (3) meta
+---------------------------------------------------------
+'Data.fulfill-weka.filter(100)   0.32 |   0.33 v   0.00 *
+'Data.fulfillcfssubset-we(100)   0.32 |   0.39 v   0.00 *
+Data.fulfilleditedCorelat(100)   0.32 |   0.35 v   0.00 *
+'Data.satisfy-weka.filter(100)   0.34 |   0.37 v   0.00 *
+'Data.fulfillcfssubset-we(100)   0.34 |   0.39 v   0.00 *
+Data.satisfyeditedCorelat(100)   0.34 |   0.38 v   0.00 *
+---------------------------------------------------------
+                              (v/ /*) |  (6/0/0)  (0/0/6)
+
+
+Key:
+(1) meta.AdaBoostM1 '-P 100 -S 1 -I 10 -W trees.DecisionStump' -1178107808933117974
+(2) meta.AdaBoostM1 '-P 100 -S 1 -I 10 -W bayes.NaiveBayes' -1178107808933117974
+(3) meta.AdaBoostM1 '-P 100 -S 1 -I 10 -W rules.ZeroR' -1178107808933117974
+

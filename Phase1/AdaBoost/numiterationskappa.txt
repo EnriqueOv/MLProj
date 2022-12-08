@@ -1,0 +1,28 @@
+Tester:     weka.experiment.PairedCorrectedTTester -G 4,5,6 -D 1 -R 2 -S 0.05 -result-matrix "weka.experiment.ResultMatrixPlainText -mean-prec 2 -stddev-prec 2 -col-name-width 0 -row-name-width 25 -mean-width 2 -stddev-width 2 -sig-width 1 -count-width 5 -print-col-names -print-row-names -enum-col-names"
+Analysing:  Kappa_statistic
+Datasets:   6
+Resultsets: 5
+Confidence: 0.05 (two tailed)
+Sorted by:  -
+Date:       12/6/22, 10:45 PM
+
+
+Dataset                   (1) meta.Ad | (2) meta (3) meta (4) meta (5) meta
+---------------------------------------------------------------------------
+'Data.fulfill-weka.filter(100)   0.32 |   0.32     0.32     0.32     0.32  
+'Data.fulfillcfssubset-we(100)   0.32 |   0.32     0.32     0.32     0.32  
+Data.fulfilleditedCorelat(100)   0.32 |   0.32     0.32     0.32     0.32  
+'Data.satisfy-weka.filter(100)   0.34 |   0.34     0.34     0.34     0.34  
+'Data.fulfillcfssubset-we(100)   0.34 |   0.34     0.34     0.34     0.34  
+Data.satisfyeditedCorelat(100)   0.34 |   0.34     0.34     0.34     0.34  
+---------------------------------------------------------------------------
+                              (v/ /*) |  (0/6/0)  (0/6/0)  (0/6/0)  (0/6/0)
+
+
+Key:
+(1) meta.AdaBoostM1 '-P 100 -S 1 -I 1 -W trees.DecisionStump' -1178107808933117974
+(2) meta.AdaBoostM1 '-P 100 -S 1 -I 5 -W trees.DecisionStump' -1178107808933117974
+(3) meta.AdaBoostM1 '-P 100 -S 1 -I 10 -W trees.DecisionStump' -1178107808933117974
+(4) meta.AdaBoostM1 '-P 100 -S 1 -I 20 -W trees.DecisionStump' -1178107808933117974
+(5) meta.AdaBoostM1 '-P 100 -S 1 -I 100 -W trees.DecisionStump' -1178107808933117974
+
